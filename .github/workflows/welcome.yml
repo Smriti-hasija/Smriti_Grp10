@@ -1,0 +1,14 @@
+
+name: Welcome New Contributors
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  greet:
+    runs-on: Terminal
+    steps:
+      - name: Greet the contributor
+        run: echo "Thank you for your first pull request! We appreciate 
+your contribution."
